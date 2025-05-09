@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { environment } from '@enviroments/environment'; //con alias desde tsconfig.json
+import { environment } from '@enviroments/environment';
+
 // import { environment } from '../../../../../environments/environment';
 
 @Component({
@@ -9,7 +10,6 @@ import { environment } from '@enviroments/environment'; //con alias desde tsconf
 
 })
 export class GifsSideMenuHeaderComponent {
-
-  envs = environment;
+  envs = environment
 
 }
